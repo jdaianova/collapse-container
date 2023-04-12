@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    overflow: hidden;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.app {
+    max-width: 500px;
+    padding: 10px;
+    border: solid 1px gray;
+    height: 90vh;
+}
+
+.content-wrap {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.button {
+    width: 100px;
+    padding: 10px;
+    background-color: rgb(11, 11, 146);
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.content {
+    transition: 0.3s;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    border: solid 1px gray;
+    border-radius: 5px;
+    width: 380px;
+}
+
+.inactiv {
+    height: 0;
+    padding: 0;
+    border: none;
+}
+
+.copy {
+    background-color: rgb(231, 225, 225);
+    flex-grow: 1;
+    text-align: right;
+    padding: 10px 20px;
+}
